@@ -4,15 +4,14 @@
 #include <string.h>
 #include <sys/socket.h>
 #include <unistd.h>
-// we are going to use this port
 using namespace std;
 
-// comand line vars
-int main(int argc,char* argv[]) {
-  int gport,ip;
-// the ip address and port number
-  ip = argv[1];
-  gport = argv[2];
+int main() {
+  
+  int client, server;
+  int PortNum = 740; 
+  bool isExit = false;
+  
   
   
 }
