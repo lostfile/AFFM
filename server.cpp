@@ -10,7 +10,9 @@ using namespace std;
 // comand line vars
 int main(int argc,char* argv[]) {
   int gport,ip;
+// this will be our nick name
   string name = argv[3];
+// the ip address and port number
   ip = argv[1];
   gport = argv[2];
   
